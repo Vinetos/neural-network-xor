@@ -25,7 +25,11 @@ An XOR gate (sometimes referred to by its extended name, Exclusive OR gate) is a
 If an XOR gate has more than two inputs, then its behavior depends on its implementation. In the vast majority of cases, an XOR gate will output true if an odd number of its inputs is true.
 <br/>
 
-    Logical Proof of XOR
+| Input  | Output |
+| ------------- | ------------- |
+| <table><tr><th>A</th><th>B</th></tr><tr><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>0</td></tr><tr><td>1</td><td>1</td></tr></table>  | <table><tr><th>Q = A ⊕ B</th></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>1</td></tr><tr><td>0</td></tr></table>  |
+
+## Logical Proof of XOR
 
 <table>
   <tr>
